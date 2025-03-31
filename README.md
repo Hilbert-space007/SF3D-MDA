@@ -13,7 +13,8 @@ This repository contains code for SF3D-MDA, proposed along with [ROAD-Waymo data
 - <a href='#references'>Reference</a>
 
 
-##Attribution
+## Attribution
+
 ROAD-Waymo-trans dataset was made using the Waymo Open Dataset, provided by Waymo LLC under license terms available at waymo.com/open.
 
 By downloading or using the ROAD-Waymo-trans dataset and/or the Waymo Open Dataset, you are agreeing to the terms of the Waymo Open Dataset License Agreement for Non-Commercial Use—which includes a requirement that you only use the Waymo Open Dataset (or datasets built from it, such as the ROAD-Waymo and ROAD-Waymo-trans dataset) for noncommercial purposes. “Non-commercial Purposes" means research, teaching, scientific publication and personal experimentation. Non-commercial Purposes include use of the dataset to perform benchmarking for purposes of academic or applied research publication. Non-commercial Purposes does not include purposes primarily intended for or directed towards commercial advantage or monetary compensation, or purposes intended for or directed towards litigation, licensing, or enforcement, even in part.

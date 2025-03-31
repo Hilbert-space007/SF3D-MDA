@@ -4,6 +4,7 @@ This repository contains code for SF3D-MDA, proposed along with [ROAD-Waymo data
 
 
 ## Table of Contents
+- <a href='#Attribution'>Attribution</a>
 - <a href='#requirements'>Requirements</a>
 - <a href='#training-SF3D-MDA'>Training SF3D-MDA</a>
 - <a href='#testing-and-building-tubes'>Testing and Building Tubes</a>

@@ -28,7 +28,7 @@ We need three things to get started with training: datasets, kinetics pre-traine
 - We currently support the following three dataset.
     - [ROAD-Waymo dataset](https://github.com/salmank255/Road-waymo-dataset)
     - [ROAD dataset](https://github.com/gurkirt/road-dataset) in dataset release [paper](https://arxiv.org/pdf/2102.11585.pdf)
-    - [ROAD-Waymo-trans]Due to technical constraints, you need to manually process labels based on the content of the Label Processing folders to obtain relevant annotations.
+    - [ROAD-Waymo-trans] Due to technical constraints, you need to manually process labels based on the content of the Label Processing folders to obtain relevant annotations.
 
 - Visit [ROAD-Waymo dataset](https://github.com/salmank255/Road-waymo-dataset) for download and pre-processing. 
 - Visit [ROAD dataset](https://github.com/gurkirt/road-dataset) for download and pre-processing. 

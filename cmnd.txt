@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py ../ ../ kinetics-pt/ --MODE=train --ARCH=resnet50 --MODEL_TYPE=SlowFast --DATASET=road --TRAIN_SUBSETS=train_3 --SEQ_LEN=8 --TEST_SEQ_LEN=8 --BATCH_SIZE=4 --LR=0.0041
+
+CUDA_VISIBLE_DEVICES=5,4,6,7 python main.py ../ ../ ../kinetics-pt/ --MODE=train --ARCH=resnet50 --MODEL_TYPE=I3D --DATASET=road --TRAIN_SUBSETS=train_1 --SEQ_LEN=8 --TEST_SEQ_LEN=8 --BATCH_SIZE=4 --LR=0.0041
+
+
+
+Example
+python main.py ../ ../  ../kinetics-pt/ --MODE=train --ARCH=resnet50 --MODEL_TYPE=SlowFast --DATASET=road_waymo --TEST_DATASET=road_waymo --TRAIN_SUBSETS=train --VAL_SUBSETS=val --SEQ_LEN=2 --TEST_SEQ_LEN=2 --BATCH_SIZE=1 --MAX_EPOCHS=1 --LR=0.0011 --MIN_SIZE=600
+python main.py ../ ../  ../kinetics-pt/ --MODE=train --ARCH=resnet50 --MODEL_TYPE=SlowFast --DATASET=road_waymo --TEST_DATASET=road_waymo --TRAIN_SUBSETS=train --VAL_SUBSETS=val --SEQ_LEN=4 --TEST_SEQ_LEN=4 --BATCH_SIZE=2 --MAX_EPOCHS=1 --LR=0.0011 --MIN_SIZE=600
+
+

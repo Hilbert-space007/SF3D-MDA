@@ -1,4 +1,4 @@
-# ROAD-Waymo Baseline for ROAD, ROAD-Waymo and ROAD-Waymo-trans dataset
+# SF3D-MDA and ROAD-Waymo-trans dataset
 This repository contains code for SF3D-MDA, proposed along with [ROAD-Waymo dataset](https://github.com/salmank255/Road-waymo-dataset) and [ROAD dataset](https://github.com/gurkirt/road-dataset). This code contains training and evaluation for ROAD-Waymo, ROAD and Road-Waymo-trans datasets. 
 
 
@@ -44,7 +44,7 @@ We need three things to get started with training: datasets, kinetics pre-traine
 
 ## Training SF3D-MDA
 - We assume that you have downloaded and put dataset and pre-trained weight in correct places.    
-- To train 3D-RetinaNet using the training script simply specify the parameters listed in `main.py` as a flag or manually change them.
+- To train SF3D-MDA using the training script simply specify the parameters listed in `main.py` as a flag or manually change them.
 
 Let's assume that you extracted dataset in `/home/user/road-waymo/` and weights in `/home/user/kinetics-pt/` directory then your train command from the root directory of this repo is going to be:
 

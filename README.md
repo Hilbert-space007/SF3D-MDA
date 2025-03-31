@@ -90,7 +90,8 @@ Second instance of `/home/user/` in above command specifies where checkpoint wei
 
 ## Citation
 This work will be published in the following article:
- @ARTICLE {yue2025joint,
+  
+  @ARTICLE {yue2025joint,
 author = {Chenyi, Yue and Lisheng, Jin and Baicang, Guo and Hongyu, Zhang and Junchen, Liu and Xingchen, Liu and Chuanqiang, An},
 journal = {The Visual Computer},
 title = {Joint Annotation and Recognition of Road User Behaviors for Autonomous Driving using Vehicle-Mounted Visual In-formation},

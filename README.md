@@ -53,6 +53,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py /home/user/ /home/user/  /home/user/
 ```
 
 Second instance of `/home/user/` in above command specifies where checkpoint weight and logs are going to be stored. In this case, checkpoints and logs will be in `/home/user/road-waymo/cache/<experiment-name>/`.
+
 ```
 --ARCH          ---> By default it's resent50 but our code also support resnet101
 --MODEL_TYPE    ---> We support six different models including I3D and SlowFast
@@ -90,18 +91,18 @@ Second instance of `/home/user/` in above command specifies where checkpoint wei
 
 ## Citation
 This work will be published in the following article:
-  
+```  
   @ARTICLE {yue2025joint,
 author = {Chenyi, Yue and Lisheng, Jin and Baicang, Guo and Hongyu, Zhang and Junchen, Liu and Xingchen, Liu and Chuanqiang, An},
 journal = {The Visual Computer},
 title = {Joint Annotation and Recognition of Road User Behaviors for Autonomous Driving using Vehicle-Mounted Visual In-formation},
 }
-
+```
 
 
 ## References
 The baseline model of this project is sourced from( https://github.com/gurkirt/3D-RetinaNet) and( https://github.com/salmank255/ROAD_Waymo_Baseline). The data set sources include:( https://github.com/gurkirt/road-dataset) and (https://github.com/salmank255/Road-waymo-dataset): 
-
+```
   @ARTICLE {singh2022road,
 author = {Singh, Gurkirt and Akrigg, Stephen and Di Maio, Manuele and Fontana, Valentina and Alitappeh, Reza Javanmard and Saha, Suman and Jeddisaravi, Kossar and Yousefi, Farzad and Culley, Jacob and Nicholson, Tom and others},
 journal = {IEEE Transactions on Pattern Analysis & Machine Intelligence},
@@ -117,8 +118,8 @@ publisher = {IEEE Computer Society},
 address = {Los Alamitos, CA, USA},
 month = {feb}
 }
-
-
+```
+```
 @inproceedings{singh2017online,
   title={Online real-time multiple spatiotemporal action localisation and prediction},
   author={Singh, Gurkirt and Saha, Suman and Sapienza, Michael and Torr, Philip HS and Cuzzolin, Fabio},
@@ -126,7 +127,8 @@ month = {feb}
   pages={3637--3646},
   year={2017}
 }
-
+```
+```
 @article{maddern20171,
   title={1 year, 1000 km: The Oxford RobotCar dataset},
   author={Maddern, Will and Pascoe, Geoffrey and Linegar, Chris and Newman, Paul},
@@ -137,4 +139,4 @@ month = {feb}
   year={2017},
   publisher={SAGE Publications Sage UK: London, England}
 }
-
+```

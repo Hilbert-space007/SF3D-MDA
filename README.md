@@ -6,6 +6,7 @@ This repository contains code for SF3D-MDA, proposed along with [ROAD-Waymo data
 ## Table of Contents
 - <a href='#Attribution'>Attribution</a>
 - <a href='#requirements'>Requirements</a>
+- <a href='#steps'>Steps</a>
 - <a href='#training-SF3D-MDA'>Training SF3D-MDA</a>
 - <a href='#testing-and-building-tubes'>Testing and Building Tubes</a>
 - <a href='#performance'>Performance</a>
@@ -22,6 +23,10 @@ By downloading or using the ROAD-Waymo-trans dataset and/or the Waymo Open Datas
 
 ## Requirements
 We need three things to get started with training: datasets, kinetics pre-trained weight, and pytorch with torchvision and tensoboardX. 
+## Steps
+
+
+First, download the ROAD and ROAD-Waymo datasets along with their corresponding labels from the provided links. Second, process the raw dataset labels using the code in the ​Label Processing folder according to the documentation instructions to obtain the training labels required for ROAD-Waymo-trans. Third, follow the training instructions below to launch train.py for model training. The network modules of the model are located in the ​models folder, and the design specifications can be obtained by reading the .py files. Finally, the model provided on this page will be submitted to the journal The Visual Computer under the title "Joint Annotation and Recognition of Road User Behaviors for Autonomous Driving using Vehicle-Mounted Visual Information", with citation details formatted as specified in the ​Citation section.
 
 ### Dataset download an pre-process
 
